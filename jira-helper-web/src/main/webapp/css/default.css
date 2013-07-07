@@ -1,0 +1,161 @@
+body {
+	background: -webkit-linear-gradient(left, #FFFFFF, #AAAAAA, #FFFFFF);
+}
+
+form {
+    position: absolute;
+    right: 20%;
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+}
+
+.content {
+	padding: 20px 5%;
+	min-height: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+	background-color: white;
+}
+
+#welcome .header {
+	font-weight:bold;
+	text-align: center;
+}
+
+#create label {
+	display: inline;
+}
+
+#create input {
+	display: block;
+}
+
+.breadcrumb {
+    text-align: right;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    padding: 0 1em;
+    margin: 1em 0;
+    border-right: 1px solid black;	
+}
+
+.control {
+    display:inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: lightgrey;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.expand:after {
+    content: "+";
+}
+
+.collapse:after {
+    content: "-";
+}
+
+ul.options {
+    width: 90%;
+    margin: auto;
+}
+
+li.option {
+    margin: 0.5em;
+    width: 30%;
+    display: inline-block;
+    background-color: grey;
+}
+
+li.option:hover {
+    background-color: black;
+}
+
+a.option-link {
+    text-decoration: none;
+    color: white;
+}
+
+a.option-link span {
+    text-align:center;   
+    width: 100%;
+    padding: 1em 0;
+    height: auto;
+    display: inline-block;
+}
+
+.option span,
+.option-child span {
+    width: 10%;
+    color: white;
+    display: inline-block;
+    text-align:right;
+}
+
+.option-parent {
+    background-color: grey;
+}
+
+#projectOptions {
+    height: 50%;
+    overflow: auto;
+}
+
+#taskOptions li {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 1em auto 0;
+    background-color: white;
+}
+
+#taskOptions a {
+     display: inline-block;
+     width: 30%;
+     height: auto;
+     margin: 1em;
+}
+
+#taskOptions .option-child {
+    width: 85%;
+    margin:auto;
+    background-color: lightgrey;
+}
+
+#taskOptions .option-child span,
+#taskOptions .option-child a {
+    color: black;
+}
+
+#userOptions {
+	margin: 0;
+    width: 40%;
+}
+
+#userOptions span {
+    width: 50%;
+}
+
+#userOptions li {
+    display: block;
+    width: auto;
+}
+
+#welcomeOptions li {
+    width: 20%;
+}
+
+#teamMembers,
+#availableMembers {
+    border: 1px solid black;
+    width: 90%;
+    height: 30%;
+    margin: 5%;
+    overflow: auto;
+}
